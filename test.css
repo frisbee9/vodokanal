@@ -33,6 +33,9 @@
 		text-transform: uppercase;
 
 	}
+	.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+		color:#229fff ;
+	}
 	.navbar-nav{
 		color:#229fff ;
 	}
@@ -90,14 +93,21 @@ main{
 	  height: 100%;
 	  background-color: #229fff; 
 	  background-repeat: no-repeat;
-	  background-image: ;
+	
+	 background-image: url("img/blob.png");
+background-position: right top;
 	}
 .container.all{
 	background-color: #FFFFFF;
 	width: 548px;
+
 }
 form{
 	padding: 5px;
+	text-align: center;
+}
+input{
+	width: 100%;
 }
 .input-group{
 	position: static;
@@ -105,9 +115,7 @@ form{
 	text-align: center;
 
 }
-.control-label{
-	text-align: center;
-}
+
 .text_1{
 	color: blue;
 	font: normal 16px sans-serif;
