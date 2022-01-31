@@ -47,6 +47,8 @@
 	  margin-left: 5px;
 	  color: #229fff;
 	position: relative;
+	margin-right: 5px;
+	white-space: nowrap;
 	}
 	.navbar-light .navbar-nav .nav-link:after{
 	  content: "";
@@ -124,13 +126,24 @@ input{
 	font-family: 'Oswald';
 	height:30px;
 	padding: 2px;
+
  }
  .text_2{
  		text-transform: uppercase;
  			font: normal 16px sans-serif;
 	font-family: 'Oswald'; 
-	
  }
+
+.text_3{
+			font: normal 16px sans-serif;
+	font-family: 'Oswald'; 
+
+}
+.text_4 {
+			font: normal 16px sans-serif;
+	font-family: 'Oswald'; 
+
+}
 
 .control-label{
 		font: bold 16px sans-serif;
