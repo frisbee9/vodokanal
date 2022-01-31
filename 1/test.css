@@ -99,11 +99,14 @@ background-position: right top;
 .container.all{
 	background-color: #FFFFFF;
 	width: 548px;
-
 }
+
 form{
-	padding: 15px;
+	padding: 20px;
 	text-align: center;
+border: 1px solid rgba(0, 0, 0, .05);
+    box-shadow: 7px 7px 5px rgb(0 0 0 / 40%);
+
 }
 input{
 	width: 100%;
