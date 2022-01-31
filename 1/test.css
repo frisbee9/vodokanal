@@ -23,9 +23,6 @@
 	display: block;
 }
 
-	.navbar-light.bg-ligh{
-		background-color:	#ffffff;
-	}
 
 	.navbar-light .navbar-brand{
 		color: #229fff;
@@ -44,7 +41,7 @@
 
 	}
 	.call{
-			text-align: center;
+		text-align: center;
 	}
 	.navbar-light .navbar-nav .nav-link{
 	  margin-left: 5px;
@@ -103,7 +100,7 @@ background-position: right top;
 
 }
 form{
-	padding: 5px;
+	padding: 15px;
 	text-align: center;
 }
 input{
@@ -132,5 +129,10 @@ input{
  		text-transform: uppercase;
  			font: normal 16px sans-serif;
 	font-family: 'Oswald'; 
-	fsdfs
+	
  }
+
+.control-label{
+		font: bold 16px sans-serif;
+	font-family: 'Oswald';
+}
