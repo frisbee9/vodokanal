@@ -1,7 +1,8 @@
-$('body').on('click', '.password-checkbox', function(){
-	if ($(this).is(':checked')){
-		$('#password-input').attr('type', 'text');
-	} else {
-		$('#password-input').attr('type', 'password');
-	}
-}); 
+   $( document ).ready(function() {
+        $('#s-h-pass').click(function(){
+            var type = $('#password').attr('type') == "text" ? "password" : 'text',
+             c = $(this).text() == "Скрыть пароль" ? "Показать пароль" : "Скрыть пароль";
+            $(this).text(c);
+            $('#password').prop('type', type);
+        });
+    });
