@@ -22,7 +22,9 @@ align-items: center;
 .row{
 display: block;
 }
-
+.navbar{
+    justify-content: center;
+}
 
 .navbar-light .navbar-brand{
 	color: #229fff;
