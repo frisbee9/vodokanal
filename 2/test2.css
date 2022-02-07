@@ -85,7 +85,7 @@ margin: auto;
 
 }
 
-/*	*/
+/*Form*/
 main{
 	display: block;
 	margin: auto;
@@ -99,10 +99,17 @@ background-position: right top;
 .container.all{
 background-color: #FFFFFF;
 width: 548px;
+
 }
 
+.	form-group{
+	top: 50%;
+}
+
+
+
 form{
-padding: 20px;
+
 text-align: center;
 border: 1px solid rgba(0, 0, 0, .05);
 box-shadow: 7px 7px 5px rgb(0 0 0 / 40%);
@@ -112,19 +119,6 @@ box-shadow: 7px 7px 5px rgb(0 0 0 / 40%);
 .text{
 width: 100%;
 }
-input{	
-
-	font: normal 16px sans-serif;
-font-family: 'Oswald'; 	
-padding: 3px;
-border-radius: 3px;
-}
-.input-group{
-position: static;
-display: block;
-text-align: center;
-
-}
 
 
 .text_1{
@@ -132,6 +126,7 @@ color: blue;
 font: normal 16px sans-serif;
 font-family: 'Oswald'; 
 }
+
 .btn{
 	background-color: orange;
 	font: normal 14px sans-serif;	
@@ -140,22 +135,7 @@ height:30px;
 padding: 2px;
 
 }
-.text_2{
-		text-transform: uppercase;
-			font: normal 16px sans-serif;
-font-family: 'Oswald'; 	
-}
 
-.text_3{
-		font: normal 16px sans-serif;
-font-family: 'Oswald'; 
-
-}
-.text_4 {
-		font: normal 16px sans-serif;
-font-family: 'Oswald'; 
-
-}
 
 label{
 	font: bold 16px sans-serif;
