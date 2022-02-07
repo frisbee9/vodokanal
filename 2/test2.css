@@ -94,7 +94,7 @@ main{
   background-color: #229fff; 
 background-repeat: no-repeat;
  background-image: url("img/blob.png");
-background-position: right top;
+  background-position: 104% top;
 }
 .container.all{
 background-color: #FFFFFF;
@@ -102,9 +102,7 @@ width: 548px;
 
 }
 
-.	form-group{
-	top: 50%;
-}
+
 
 
 
@@ -116,13 +114,15 @@ box-shadow: 7px 7px 5px rgb(0 0 0 / 40%);
 
 
 }
-.text{
-width: 100%;
+.line{
+	color: #fff;
+	background-color: #229fff; 
+	height: 23px;
+		 font: normal 16px sans-serif;
+font-family: 'Oswald';		
 }
-
-
-.text_1{
-color: blue;
+.text{
+color: black;
 font: normal 16px sans-serif;
 font-family: 'Oswald'; 
 }
@@ -135,9 +135,15 @@ height:30px;
 padding: 2px;
 
 }
-
-
-label{
-	font: bold 16px sans-serif;
-font-family: 'Oswald';
+.table td, .table th {
+	padding: 0;
 }
+
+th{
+color: #333;
+	 text-align: left; 
+	 font: normal 16px sans-serif;
+font-family: 'Oswald';
+padding: 0;
+}
+	
