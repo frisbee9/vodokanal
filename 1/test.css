@@ -94,7 +94,7 @@ main{
   background-color: #229fff; 
 background-repeat: no-repeat;
  background-image: url("img/blob.png");
-background-position: right top;
+  background-position: 104% top;
 }
 .container.all{
 background-color: #FFFFFF;
