@@ -1,7 +1,5 @@
 body{
-
 	padding: 0;
-	margin-left: ;
 	webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
 	width: 1170px;
@@ -121,18 +119,19 @@ color: #333;
 
 .table td, .table th{
 	border-top: 1px solid grey ;
+		vertical-align: middle;
 }
 .container_text{
 	margin-left: 50px;
 }
 .text_2{
-		text-transform: uppercase;
-			font: normal 14px sans-serif;
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 	
+text-transform: uppercase;
+font: normal 14px sans-serif;
+font-family: "Helvetica"; 	
 }
 
 .text_3{
-		font: normal 14px sans-serif;
+font: normal 14px sans-serif;
 font-family: 'Oswald'; 
 
 }
