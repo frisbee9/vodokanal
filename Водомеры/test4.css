@@ -1,7 +1,7 @@
 body{
 
 	padding: 0;
-	margin-left: ;
+
 	webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
 	width: 1170px;
@@ -117,6 +117,7 @@ td{
 text-align: center;
 color: #333;
 
+
 }
 .first{
 	background-color: #229fff;
@@ -128,7 +129,7 @@ color: #333;
 	vertical-align: middle;
 }
 
-.exit{
+.push{
 	background-color: orange;
 	font: normal 14px sans-serif;	
 	font-family: 'Oswald';
@@ -140,6 +141,21 @@ color: #333;
 	color: #fff;
 	text-decoration: none;
 	text-align: center;
+}
+
+.serch{
+	background-color: orange;
+	font: normal 14px sans-serif;	
+	font-family: 'Oswald';
+	width: 150px; 
+	height: 30px;
+  margin: auto;
+	padding-top: 2px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+
 }
 footer{
 	height: 15vh;
