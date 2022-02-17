@@ -48,10 +48,10 @@ a.nav-link{
 	text-align: center;
 }
 .navbar-light .navbar-nav .nav-link{
-  margin-left: 5px;
+ 
   color: #229fff;
 position: relative;
-padding-right: 0;
+
 white-space: nowrap;
 
 }

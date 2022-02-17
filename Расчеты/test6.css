@@ -51,10 +51,10 @@ a.nav-link{
 	text-align: center;
 }
 .navbar-light .navbar-nav .nav-link{
-  margin-left: 5px;
+
   color: #229fff;
 position: relative;
-padding-right: 0;
+
 white-space: nowrap;
 
 }
@@ -111,11 +111,13 @@ h3{
 table{
 font: normal 16px sans-serif;
 font-family: 'Oswald';
-width: 100%;
+width: 1170px;
 border-spacing: 3px;
 display: table;	
 
+
 }
+
 .row .table{
 border-collapse: separate;
 }
@@ -129,6 +131,7 @@ color: #333;
 
 
 }
+
 .first{
 	background-color: #229fff;
 	color: #fff;
