@@ -2,11 +2,13 @@ body{
 	padding: 0;
 	webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
-	width: 1170px;
+
 	height: 100%;
-	position: relative;
+
 	margin: auto;	
 
+	display: table;
+	max-width: 1140px;
 }
 header{
   font: normal 16px sans-serif;
@@ -17,11 +19,16 @@ header{
 align-items: center;
 
 }
+.container{
+	padding-left: 0;
+}
 .row{
 display: block;
+margin-left: 15px;
+
 }
 .navbar{
-  justify-content: center;
+    justify-content: center;
 }
 
 .navbar-light .navbar-brand{
@@ -30,10 +37,11 @@ display: block;
 	text-transform: uppercase;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color:#229fff ;		
+	color:#229fff ;
 }
 .navbar-nav{
 	color:#229fff ;
+	margin-left: 0px;
 }
 a.nav-link{
 	text-align: center;
@@ -46,8 +54,9 @@ a.nav-link{
   margin-left: 5px;
   color: #229fff;
 position: relative;
-margin-right: 5px;
+padding-right: 0;
 white-space: nowrap;
+
 }
 .navbar-light .navbar-nav .nav-link:after{
   content: "";

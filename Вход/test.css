@@ -2,11 +2,13 @@ body{
 	padding: 0;
 	webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
-	width: 1170px;
+
 	height: 100%;
 
 	margin: auto;	
 
+	display: table;
+	max-width: 1140px;
 }
 header{
   font: normal 16px sans-serif;
@@ -17,9 +19,12 @@ header{
 align-items: center;
 
 }
-
+.container{
+	padding-left: 0;
+}
 .row{
 display: block;
+margin-left: 15px;
 
 }
 .navbar{
@@ -36,6 +41,7 @@ display: block;
 }
 .navbar-nav{
 	color:#229fff ;
+	margin-left: 0px;
 }
 a.nav-link{
 	text-align: center;
@@ -48,8 +54,9 @@ a.nav-link{
   margin-left: 5px;
   color: #229fff;
 position: relative;
-margin-right: 5px;
+padding-right: 0;
 white-space: nowrap;
+
 }
 .navbar-light .navbar-nav .nav-link:after{
   content: "";

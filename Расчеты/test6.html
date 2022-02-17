@@ -2,7 +2,7 @@
 <html lang="uk">
 <head>
 	<meta charset="utf-8">
-	<title>Інформація</title>
+	<title>Розрахунки</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300" type="text/css">
   <link href="http://fonts.cdnfonts.com/css/helvetica-neue-9" rel="stylesheet">
@@ -22,7 +22,7 @@
       <div class="row">
        <nav class="navbar navbar-expand-xl navbar-light bg-light">
         <a href="https://water.kherson.ua/"><img class="logo" src="img/logo.png"></a>
-        <a class="navbar-brand" href="../Личный кабинет/test2.html">Особистий кабинет</a>
+        <a class="navbar-brand" href="#">Особистий кабинет</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,19 +32,19 @@
               <a class="nav-link" href="#">Інформація </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../Водомеры/test4.html">Водоміри</a>
+              <a class="nav-link" href="#">Водоміри</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#" >Розрахунки</a>
             </li>
-               <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#" >Оплата</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="#" >Послуга онлайн</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="../Профиль/test5.html" >Профіль</a>
+              <a class="nav-link " href="#" >Профіль</a>
             </li>
             <li class="nav-item">
               <a class="nav-link " href="https://water.kherson.ua" >Вийти</a>
@@ -55,108 +55,151 @@
 
          </ul>
 
+      
        </div>
      </div>
    </div>
  </header>
 
- <main>
+<main>
+ 
+  <div class="container">
+    <div class="row">
+
+      <a href=""><h3>Архів розрахунків до 31.12.2021 р.</h3></a></br>
+      <h2 style="font-size: 30px; color: #333;" >0291321033 - Смольна буд 132А кв.033.</h2> </br>
+    </div>
+  </div>
+<div class="container">
+  <div class="row table">
+      <table class="table table-hover" id="bootstrap-table"  >
+        <tbody>
+           <tr>
+ <td class="first">СТАН РАХУНКУ</td>
+ <td >35.63</td>
+ <td class="first">ОСТАННЯ ПРОПЛАТА</td>
+  <td >158.45</td>
+   <td >02.02.2022</td>
+ </tr>
+        </tbody>
+      </table>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    <div class="container">
      <div class="row table">
-     <table class="table table-hover" id="bootstrap-table"  >
+     <table  class="table table-hover" id="bootstrap-table"  >
 
  <tbody>
- <tr>
- <td class="first">ОСОБИСТИЙ РАХУНОК</td>
- <td colspan="4">0291321033</td>
- 
+ <tr style="  white-space: nowrap;">
+   <td>Період</td>
+   <td colspan="3">
+    з:
+    <select  style="width:110px;height:25px"size="1">
+   <option value="1">Січень</option>
+    <option value="2">Лютий</option>
+    <option value="3">Березень</option>
+    <option value="4">Квітень</option>
+    <option value="5">Травень</option>
+    <option value="6">Червень</option>
+    <option value="7">Липень</option>
+    <option value="8">Серпень</option>
+    <option value="9">Вересень</option>
+    <option value="10">Жовтень</option>
+    <option value="11">Листопад</option>
+    <option value="12">Грудень</option>
+ </select>
+ <select style="width:90px;height:25px">
+    <option value="2022">2022</option>
+ </select>
+</td>
+ <td colspan="3">
+    до:
+    <select  style="width:110px;height:25px"size="1">
+   <option value="1">Січень</option>
+    <option value="2">Лютий</option>
+    <option value="3">Березень</option>
+    <option value="4">Квітень</option>
+    <option value="5">Травень</option>
+    <option value="6">Червень</option>
+    <option value="7">Липень</option>
+    <option value="8">Серпень</option>
+    <option value="9">Вересень</option>
+    <option value="10">Жовтень</option>
+    <option value="11">Листопад</option>
+    <option value="12">Грудень</option>
+ </select>
+ <select style="width:90px;height:25px">
+    <option value="2022">2022</option>
+ </select>
+</td>
+ <td colspan="3"> <a href="https://water.kherson.ua/" target="_blank"  class="btn btn-primary btn-lg btn-block login-button serch" type="button" id="button">Шукати</a>
+</td>
  </tr>
  <tr>
- <td class="first">АДРЕСА</td>
- <td colspan="4">Смольна буд 132А кв. 033</td>
+   <td rowspan="3" class="first">МІСЯЦЬ</td>
+      <td rowspan="3" class="first">СТАН РАХУНКУ НА ПОЧАТОК ПЕРІОДУ</td>
+       <td rowspan="3" class="first">СПОЖИТО (m3) </td>
+       <td colspan="6" class="first">НАРАХОВАНО (грн.) </td>
+       <td rowspan="3" class="first">ВСЬОГО ДО СПЛАТИ </td>
+       <td colspan="2" class="first">СПЛАЧЕНО</td>
+       <td rowspan="3"class="first">Перерахунок</td>
+           <td rowspan="3"class="first">Пеня</td>
+           <td rowspan="3"class="first">Стан рахунку на кінець періоду</td>
+           <td  rowspan="3"class="first">Друк  </td>
 
  </tr>
  <tr>
- <td class="first">П.І.Б</td>
- <td >ЗАБОЛОТНЫЙ</td>
-  <td >ВАЛЕНТИН</td>
-   <td >ВАЛЕНТИНОВИЧ</td>
-    <td ></td>
+   <td colspan="2" class="first">Послуга</td>
+      <td colspan="2" class="first">Абонентська плата</td>
+             <td rowspan="2" class="first">Субсидія  </td>
+                       <td rowspan="2" class="first">Пільга </td>
+                       <td rowspan="2" class="first">Всього </td>
  </tr>
- <tr>
-  <td class="first">ТЕЛЕФОН</td>
- <td></td>
- <td></td>
- <td class="first">E-MAIL</td>
-  <td>zabolotniy.61@gmail.com</td>
- </tr>
- <tr>
- <td class="first">КІЛЬКІСТЬ МЕШКАНЦІВ</td>
- <td>4</td>
- <td></td>
- <td class="first">КІЛЬКІСТЬ ПІЛЬГОВИКІВ</td>
- <td>0</td>
- </tr>
- <tr>
-<td class="first">ПЕРЕЛІК ПОСЛУГ</td>
- <td>Водопостачання</td>
- <td>Водовідведення</td>
- <td class="first">ВИД ОБЛІКУ ПОСЛУГ</td>
- <td>Водолічильник</td>
- </tr>
- <tr>
- <td class="first">ДІЮЧИЙ ТАРИФ</td>
- <td>15.780</td>
- <td>14.916 грн/куб.м</td>
- <td class="first">НОРМА СПОЖИВАННЯ</td>
- <td></td>
- </tr>
- <tr>
- <td class="first">ВСЬОГО</td>
- <td colspan="2">30.696 грн/куб.м</td>
- <td colspan="2"></td>
- </tr>
- <tr>
- <td class="first" rowspan="2">Плата за абонентське обслуговування (щомісячно)</td>
- <td>Водопостачання</td>
- <td>Водовідведення</td>
- <td></td>
-  <td></td>
- </tr>
- <tr>
- <td>17.75 грн</td>
- <td>17.90 грн</td>
- <td></td>
- <td></td>
- </tr>
- <tr>
- <td class="first">ВСЬОГО</td>
- <td colspan="2">35.65 грн</td>
- <td colspan="2"></td>
- </tr>
- 
  </tbody>
  </table>
-       
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      </div>
    </div>
  </main>
-<div class="container_text">
-<p class="text_2" style="color : red; ">УВАГА!  <span style="color :#1660F6;">   З 01.01.2022: </span> </p>
-<p class="text_3"><span style="float: left;"> 1. Зміна тарифу :</span><br> - централізоване водопостачання – 15,78 грн. за 1 куб. м (з ПДВ); <br>  - централізоване водовідведення – 14,916 грн. за 1 куб. м (з ПДВ). <br></p>
-<p class="text_3"><span style="float: left; margin-right: 4px;"> 2. Введення плати за абонентське обслуговування -  </span> <span style="float: left; text-decoration: underline;text-transform: uppercase; " ><a href="https://water.kherson.ua/uvaga-zaprovadzhuyetsya-plata-za-abonentske-obslugovuvannya/">Детально</a></span> </p><br><br>
-  <ul>
-   <li>
-    <a href="https://water.kherson.ua/bagatokvartyrni-budynky-2017/">Ключова інформація для жителів багатоквартирних будинків за підсумками 2018 року</a>
-  </li></br>
-   <li>
-     <a href="https://water.kherson.ua/info-mnogokvart-kab/">Ключова інформація для жителів багатоквартирних будинків за підсумками 2019 року</a>
-   </li></br>
-   <li>
-      <a href="https://water.kherson.ua/klyuch-inf-multi2020/">Ключова інформація для жителів багатоквартирних будинків за підсумками 2020 року</a>
-   </li>
-  </ul>
-</div>
+
 <footer>
   
 </footer>

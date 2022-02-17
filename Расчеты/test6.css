@@ -2,10 +2,12 @@ body{
 	padding: 0;
 	webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .05);
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
-	width: 1170px;
+
 	height: 100%;
-	position: relative;
+
 	margin: auto;	
+
+	display: table;
 
 }
 header{
@@ -17,11 +19,16 @@ header{
 align-items: center;
 
 }
+.container{
+padding-left: 0;
+}
 .row{
 display: block;
+margin-left: 15px;
+
 }
 .navbar{
-  justify-content: center;
+    justify-content: center;
 }
 
 .navbar-light .navbar-brand{
@@ -30,10 +37,11 @@ display: block;
 	text-transform: uppercase;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color:#229fff ;		
+	color:#229fff ;
 }
 .navbar-nav{
 	color:#229fff ;
+	margin-left: 0px;
 }
 a.nav-link{
 	text-align: center;
@@ -46,8 +54,9 @@ a.nav-link{
   margin-left: 5px;
   color: #229fff;
 position: relative;
-margin-right: 5px;
+padding-right: 0;
 white-space: nowrap;
+
 }
 .navbar-light .navbar-nav .nav-link:after{
   content: "";
@@ -87,17 +96,24 @@ margin: auto;
 main{
 	display: block;
 	margin: auto;
-	padding: 50px;
+
   height: 100%;
  
 }
-
+h3{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	color: #337ab7;
+	font-family: "Helvetica";
+}
 table{
 font: normal 16px sans-serif;
 font-family: 'Oswald';
 width: 100%;
 border-spacing: 3px;
-display: table;
+display: table;	
 
 }
 .row .table{
@@ -111,6 +127,7 @@ td{
 text-align: center;
 color: #333;
 
+
 }
 .first{
 	background-color: #229fff;
@@ -121,23 +138,26 @@ color: #333;
 	border-top: 1px solid grey ;
 		vertical-align: middle;
 }
-.container_text{
-	margin-left: 50px;
-}
-.text_2{
-text-transform: uppercase;
-font: normal 14px sans-serif;
-font-family: "Helvetica"; 	
-}
 
-.text_3{
-font: normal 14px sans-serif;
-font-family: 'Oswald'; 
+
+.serch{
+	background-color: orange;
+	font: normal 14px sans-serif;	
+	font-family: 'Oswald';
+	width: 150px; 
+	height: 30px;
+  margin: auto;
+	padding-top: 2px;
+	border-radius: 5px;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
 
 }
 footer{
 	height: 15vh;
 	width: 1170px;
 	background-color: #229fff;
+	background-position: center;
 }
 
