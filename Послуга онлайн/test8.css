@@ -28,7 +28,7 @@ margin-left: 15px;
 
 }
 .navbar{
-    justify-content: center;
+   justify-content: center;
 }
 
 .navbar-light .navbar-brand{
@@ -101,73 +101,37 @@ main{
   height: 100%;
  
 }
-.text{
-	padding-top: 5vh;
-	text-align: center;
-	font-family: "Helvetica"; 
-}
-table{
-font: normal 16px sans-serif;
+p{
+	font: normal 20px sans-serif;	
 font-family: 'Oswald';
-width: 100%;
-border-spacing: 3px;
-display: table;
-
-}
-.row .table{
-border-collapse: separate;
-}
-
-td{
-  border: 1px solid grey;
-  width: 200px;
-  height: 40px;
+color: #229fff;
 text-align: center;
-color: #333;
-
-
+}
+ul{
+	list-style-type: none;
+		font: normal 20px sans-serif;	
+font-family: 'Oswald';
+color: #337ab7;
 
 }
-.first{
-	background-color: #229fff;
-	color: #fff;
-}
 
-.table td, .table th{
-	border-top: 1px solid grey ;
-	vertical-align: middle;
+table{
+	border-color: black;
 }
-
-.push{
-	background-color: orange;
-	font: normal 14px sans-serif;	
-	font-family: 'Oswald';
-	width: 150px; 
-	height: 30px;
-	margin: auto;
-	padding-top: 2px;
-	border-radius: 5px;
-	color: #fff;
-	text-decoration: none;
+td{
 	text-align: center;
+	padding: 0;
 }
-
-.serch{
-	background-color: orange;
-	font: normal 14px sans-serif;	
-	font-family: 'Oswald';
-	width: 150px; 
-	height: 30px;
-  margin: auto;
-	padding-top: 2px;
-	border-radius: 5px;
-	color: #fff;
-	text-decoration: none;
-	text-align: center;
-
+.table td{
+    padding: 0;
+    vertical-align: middle;
+    border-top: 1px solid black;
+  	font-size: 14px;
+	color: #333;
+	font-family: "Helvetica";
 }
 footer{
-	height: 15vh;
+	height: 220px;
 	width: 1170px;
 	background-color: #229fff;
 }

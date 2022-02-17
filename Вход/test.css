@@ -100,7 +100,7 @@ main{
   height: 100%;
   background-color: #229fff; 
 background-repeat: no-repeat;
- background-image: url("img/blob.png");
+ background-image: url("../img/blob.png");
   background-position: 104% top;
 }
 .container.all{
