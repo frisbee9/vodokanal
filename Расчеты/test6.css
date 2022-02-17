@@ -4,7 +4,7 @@ body{
 	box-shadow: 0 0 7px rgba(0, 0, 0, .50);
 	width: 1170px;
 	height: 100%;
-
+	position: relative;
 	margin: auto;	
 
 }
@@ -17,13 +17,11 @@ header{
 align-items: center;
 
 }
-
 .row{
 display: block;
-
 }
 .navbar{
-    justify-content: center;
+  justify-content: center;
 }
 
 .navbar-light .navbar-brand{
@@ -32,7 +30,7 @@ display: block;
 	text-transform: uppercase;
 }
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-	color:#229fff ;
+	color:#229fff ;		
 }
 .navbar-nav{
 	color:#229fff ;
@@ -85,75 +83,61 @@ margin: auto;
 
 }
 
-/*	*/
+/*Form*/
 main{
 	display: block;
 	margin: auto;
 	padding: 50px;
   height: 100%;
-  background-color: #229fff; 
-background-repeat: no-repeat;
- background-image: url("img/blob.png");
-  background-position: 104% top;
-}
-.container.all{
-background-color: #FFFFFF;
-width: 548px;
+ 
 }
 
-form{
-padding: 20px;
-text-align: center;
-border: 1px solid rgba(0, 0, 0, .05);
-box-shadow: 7px 7px 5px rgb(0 0 0 / 40%);
-
-
-}
-.text{
-width: 100%;
-}
-input{	
-
-	font: normal 16px sans-serif;
-font-family: 'Oswald'; 	
-padding: 3px;
-border-radius: 3px;
-}
-.input-group{
-position: static;
-display: block;
-text-align: center;
-
-}
-
-
-.text_1{
-color: blue;
+table{
 font: normal 16px sans-serif;
-font-family: 'Oswald'; 
-}
-.btn{
-	background-color: orange;
-	font: normal 14px sans-serif;	
 font-family: 'Oswald';
-height:30px;
-padding: 2px;
+width: 100%;
+border-spacing: 3px;
+display: table;
 
+}
+.row .table{
+border-collapse: separate;
+}
+
+td{
+  border: 1px solid grey;
+  width: 200px;
+  height: 40px;
+text-align: center;
+color: #333;
+
+}
+.first{
+	background-color: #229fff;
+	color: #fff;
+}
+
+.table td, .table th{
+	border-top: 1px solid grey ;
+		vertical-align: middle;
+}
+.container_text{
+	margin-left: 50px;
 }
 .text_2{
-		text-transform: uppercase;
-			font: normal 16px sans-serif;
-font-family: 'Oswald'; 	
+text-transform: uppercase;
+font: normal 14px sans-serif;
+font-family: "Helvetica"; 	
 }
 
 .text_3{
-		font: normal 16px sans-serif;
+font: normal 14px sans-serif;
 font-family: 'Oswald'; 
 
 }
-
-
-label{
-	font: bold 16px sans-serif;
-font-family: 'Oswald';
+footer{
+	height: 15vh;
+	width: 1170px;
+	background-color: #229fff;
 }
+
